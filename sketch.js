@@ -4,9 +4,10 @@ const num = 4000;
 const noiseScale = 0.01;
     
 function setup() {
-  createCanvas(1920, 1080);
+  createCanvas(windowWisth, windowHeight);
   canvas.position(0,0);
   canvas.style('z-index', '-1')
+  background(0,10);
   for(let i = 0; i < num; i ++) {
     particle.push(createVector(random(width), random(height)));
   }
