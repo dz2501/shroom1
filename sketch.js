@@ -1,17 +1,24 @@
 var canvas;
 let particle = [];
-const num = 1000;
+const num = 1300;
 const noiseScale = 0.01;
+
     
 function setup() {
   let canvas = createCanvas(windowWidth, windowHeight);
-  canvas.position(0,0);
+  canvas.position(0,0,'fixed');
   canvas.style ('z-index', '-1')
+  
   for(let i = 0; i < num; i ++) {
     particle.push(createVector(random(width), random(height)));
   }
   stroke(255);
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 
 function draw() {
   background(0,10);
@@ -26,7 +33,6 @@ function draw() {
       p.x = random(width);
       p.y = random(height);
     }
-    console.log("test");
   } 
 }
 
