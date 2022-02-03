@@ -60,10 +60,72 @@ p1 {
         margin: auto;
 }
 
-a:hover {
-        <img src="_____.gif">;
+.mark hover {
+        position: relative;
+        <img src="/images/first.gif">
       }
 
 .mark {
         text-decoration: underline;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* 2. Make nav sticky */
+nav {
+	position: sticky;
+        align-self: flex-start;
+}
+
+/* 3. ScrollSpy active styles (see JS tab for activation) */
+.section-nav li.active > a {
+	color: #00d79e;
+	font-weight: 500;
+}
+
+/* Sidebar Navigation */
+.section-nav {
+	padding-left: 0;
+	border-left: 1px solid white;
+}
+
+.section-nav a {
+	text-decoration: none;
+	display: inline-block;
+	padding: .400rem 0;
+	color: white;
+	transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
+}
+
+.section-nav a:hover,
+.section-nav a:focus {
+	color: #00d79e;
+;
+}
+
+/** Poor man's reset **/
+* {
+	box-sizing: border-box;
+}
+
+
+nav {
+	font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+ul, ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+li {
+	margin-left: 1rem;
+}
+
+
+/** enlarge the sections for this demo, so that we have a long scrollable page **/
+section {
+	padding-bottom: 20rem;
 }
