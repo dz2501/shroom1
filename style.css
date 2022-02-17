@@ -1,20 +1,102 @@
 @font-face {
-        font-family: "Guyon Gazebo";
-        font-weight: 400;
-        src: url("/fonts/GuyonGazebo-Regular.woff") format("woff");  
+        font-family: "Fraunces[SOFT,WONK,opsz,wght]";
+        font-display: swap;
+        font-weight: 100 900;
+        src: url("fonts/Fraunces[SOFT\,WONK\,opsz\,wght].woff2") format("woff2");
+        /* unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF; */
+      }
+
+@font-face {
+        font-family: "Fraunces-Italic";
+        font-display: swap;
+        font-weight: 100 900;
+        src: url("fonts/Fraunces-Italic[SOFT\,WONK\,opsz\,wght].woff2") format("woff2");
+        /* unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF; */
+      }
+
+@font-face {
+        font-family: "Fraunces9ptSuperSoft-Bold";
+        src: url("fonts/Fraunces9ptSuperSoft-Bold.woff2") format("woff2");
 }
 
 @font-face {
-        font-family: "roboto";
+        font-family: "CheeeDemo-Shishi";
         font-weight: 400;
-        src: url("/fonts/roboto.medium.woff") format("woff"); 
+        src: url("fonts/CheeeDemo-Shishi.woff2") format("woff2");
 }
 
-/* @media screen and (max-width: 600px) {
-        h1 {
-                margin-top: 2vh;
-        }
-} */
+@font-face {
+        font-family: "CheeeDemo-Juanito";
+        font-weight: 400;
+        src: url("fonts/CheeeDemo-Juanito.woff2") format("woff2");
+}
+
+@font-face {
+        font-family: "OhnoBlazefaceDemo-72Point";
+        font-weight: 400;
+        src: url("fonts/OhnoBlazefaceDemo-72Point.woff2") format("woff2");
+}
+
+@font-face {
+        font-family: "Fraunces9ptSoft-SemiBold";
+        font-weight: 400;
+        src: url("fonts/Fraunces9ptSoft-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+        font-family: "Fraunces9ptSoft-Italic";
+        font-weight: 400;
+        src: url("fonts/Fraunces9ptSoft-Italic.woff2") format("woff2");
+}
+
+@font-face {
+        font-family: "Fraunces9ptSuperSoft-Light";
+        src: url("fonts/Fraunces9ptSuperSoft-Light.woff2") format("woff2");
+}
+
+@font-face {
+        font-family: "Fraunces9ptSuperSoft-Regular";
+        src: url("fonts/Fraunces9ptSuperSoft-Regular.woff2") format("woff2");
+}
+
+@font-face {
+        font-family: "Fraunces9ptSoft-LightItalic";
+        src: url("fonts/Fraunces9ptSoft-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+        font-family: "Fraunces9ptSuperSoft-ThinItalic";
+        src: url("fonts/Fraunces9ptSuperSoft-ThinItalic.woff2") format("woff2");
+}
+
+
+@font-face {
+        font-family: "Fraunces9ptSoft-SemiBoldItalic";
+        src: url("fonts/Fraunces9ptSoft-SemiBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+        font-family: "Fraunces9ptSoft-regular";
+        src: url("fonts/Fraunces9ptSoft-regular.woff2") format("woff2");
+}
+
+@font-face {
+        font-family: "Fraunces9ptSoft-BoldItalic";
+        src: url("fonts/Fraunces9ptSoft-BoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+        font-family: "Fraunces9ptSoft-SemiBoldItalic";
+        src: url("fonts/Fraunces9ptSoft-SemiBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+        font-family: "Fraunces9ptSuperSoft-ThinItalic";
+        src: url("fonts/Fraunces9ptSuperSoft-ThinItalic.woff2") format("woff2");
+}
+
+
+
 
 canvas {
         margin: 0px;
@@ -24,108 +106,413 @@ canvas {
 
 
 h1 {
-        font-family: "Guyon Gazebo";
+        font-family: "OhnoBlazefaceDemo-72Point";
         font-size: 17.5vw;
         text-align : center;
         line-height: 30%;
-        letter-spacing: 30px;
+        letter-spacing: 10px;
         margin-top: 23vh;
-        color: #00d79e;
-        @media (max-width: 600px){
-                margin-top: 5vh;
+        color: #00d79e; 
         }
 
         
-}
 h2 {
-        font-family: "Guyon Gazebo";
+        font-family: "OhnoBlazefaceDemo-72Point";
         font-size: 19.5vw;
         text-align: center;
         line-height: 10%;
-        letter-spacing: 30px;
-        margin-bottom: 30vh;
+        letter-spacing: 10px;
+        margin-bottom: 20%;
         color: #00d79e;
-        @media (max-width: 600px){
-                margin-top: 5vh;
-        }
 }
-p1 { 
-        font-family: "roboto";
-        font-size: 2.5vw;
+
+h3 {
+        font-family: "Fraunces9ptSuperSoft-Light";
+        font-size: 1.5vw;
+        letter-spacing: 2px;
+        text-align: left;
+        color: #00d79c;
+        margin-left: 10%;
+}
+
+.text { 
+        font-family: "Fraunces9ptSoft-Italic";
+        font-size: 1.6vw;
         text-align: left;
         line-height: 140%;
+        letter-spacing: 1px;
         color: #00d79c;
         display: block;
-        width: 60%;
-        margin: auto;
+        width: 66%;
+        margin-left: 10%;
+        margin-bottom: 10%;
+        position: absolute;
+        /* display: inline-block; */
 }
 
-.mark hover {
+.image {
         position: relative;
-        <img src="/images/first.gif">
-      }
+        width: 12%;
+        top:0vw;
+        left: 74vw;
+        z-index: -1;
 
-.mark {
-        text-decoration: underline;
 }
 
-html {
-	scroll-behavior: smooth;
-}
-
-/* 2. Make nav sticky */
-nav {
-	position: sticky;
-        align-self: flex-start;
-}
-
-/* 3. ScrollSpy active styles (see JS tab for activation) */
-.section-nav li.active > a {
-	color: #00d79e;
-	font-weight: 500;
-}
-
-/* Sidebar Navigation */
-.section-nav {
-	padding-left: 0;
-	border-left: 1px solid white;
-}
-
-.section-nav a {
-	text-decoration: none;
-	display: inline-block;
-	padding: .400rem 0;
-	color: white;
-	transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
-}
-
-.section-nav a:hover,
-.section-nav a:focus {
-	color: #00d79e;
-;
-}
-
-/** Poor man's reset **/
-* {
-	box-sizing: border-box;
+.container {
+        display: flex;
+        margin-top: 2%;
+        width: 80%;
+        align-self: center;
+        margin-left: 10%;
 }
 
 
-nav {
-	font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+.text2 { 
+        font-family: "Fraunces9ptSoft-LightItalic";
+        font-size: 1.6vw;
+        font-weight: 200;
+        text-align: left;
+        line-height: 140%;
+        letter-spacing: 1px;
+        color: #00d79c;
+        display: block;
+        flex-basis: 66%;
+        margin-bottom: 20%;
+        /* display: inline-block; */
+
 }
 
-ul, ol {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+.note {
+        font-family: "Fraunces9ptSuperSoft-Light"; 
+        position: absolute;
+        font-size: 1.2vw;
+        text-align: left;
+        width: 10vw;
+        line-height: 140%;
+        color: #00d79c;
+        margin-left: 85vw;
+        margin-top: -14vw;
 }
-li {
-	margin-left: 1rem;
+
+.note2 {
+        font-family: "Fraunces9ptSuperSoft-Light"; 
+        position: absolute;
+        font-size: 1.2vw;
+        text-align: left;
+        width: 10vw;
+        line-height: 140%;
+        color: #00d79c;
+        margin-top: 48vw;
+        margin-left: 68vw;
 }
 
 
-/** enlarge the sections for this demo, so that we have a long scrollable page **/
-section {
-	padding-bottom: 20rem;
+.image2 {
+
+        flex-basis: 22%;
+        margin-top: -18vw;        
+        width: 14%;
+        left: 20vw;
+
+}
+
+span {
+        display: inline-block;
+        width: 95%;
+}
+
+.image3{
+        width: 100%;
+        margin-top: 20vw;
+        margin:auto;
+}
+
+.text3 { 
+        font-family: "Fraunces9ptSoft-SemiBoldItalic";
+        font-size: 1.6vw;
+        text-align: left;
+        line-height: 140%;
+        letter-spacing: 1px;
+        color: #00d79c;
+        display: block;
+        width: 82%;
+        margin-left: 10%;
+        margin-top: 3vw;
+}
+
+h4 {
+        font-family: "Fraunces9ptSuperSoft-Light";
+        font-size: 1.5vw;
+        letter-spacing: 2px;
+        text-align: left;
+        color: #00d79c;
+        margin-left: 10%;
+        margin-top: 20%;
+}
+
+.text4 { 
+        font-family: "Fraunces9ptSoft-LightItalic";
+        font-size: 1.6vw;
+        text-align: left;
+        line-height: 140%;
+        letter-spacing: 1px;
+        color: #00d79c;
+        display: block;
+        width: 64%;
+        margin-left: 10%;
+        margin-top: -2vw;
+}
+
+.image4{
+        width: 80%;
+        margin-top: 5vw;
+        margin-left: 10%;
+}
+
+.image5{
+        width: 12%;
+        display: inline;
+        margin: 1vw;
+        margin-bottom: -1vw;
+        float: left;
+
+}
+
+.image6{
+        font-family: "Fraunces9ptSoft-SemiBoldItalic";
+        width: 12%;
+        display: inline;
+        margin: 1vw;
+        margin-bottom: -1vw;
+        float: left;
+
+}
+
+.image7{
+        width: 12%;
+        display: inline;
+        margin: 1vw;
+        margin-bottom: -1vw;
+        float: left;
+
+}
+
+.image8{
+        width: 16%;
+        display: inline;
+        margin: 1vw;
+        float: left;
+
+}
+
+.image9{
+        width: 14%;
+        display: inline;
+        margin: 1vw;
+        margin-bottom: 0vw;
+        float: left;
+
+}
+
+.image10{
+        width: 14%;
+        display: inline;
+        margin: 1vw;
+        margin-bottom: 0vw;
+        float: left;
+
+}
+
+
+
+
+.text5 { 
+        font-family: "Fraunces9ptSoft-BoldItalic";
+        font-size: 1.6vw;
+        text-align: left;
+        line-height: 140%;
+        letter-spacing: 1px;
+        color: #00d79c;
+        width: 58%;
+        margin-left: 10%;
+        margin-top: 3%;
+
+}
+
+.image11{
+        width: 26%;
+        position: absolute;
+        margin-top: -99vw;
+        margin-left: 68vw;
+        z-index: -1;
+}
+
+.text6 { 
+        font-family: "Fraunces9ptSoft-LightItalic";
+        font-size: 1.6vw;
+        text-align: left;
+        line-height: 140%;
+        letter-spacing: 1px;
+        color: #00d79c;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 3%;
+}
+
+
+
+.image12{
+        width: 37%;
+        position: absolute;
+        margin-top: -86vw;
+        margin-left: 60vw;
+        z-index: -1;
+
+}
+
+.text7 { 
+        font-family: "Fraunces9ptSoft-BoldItalic";
+        font-size: 1.6vw;
+        text-align: left;
+        line-height: 140%;
+        letter-spacing: 1px;
+        color: #00d79c;
+        width: 45%;
+        margin-left: 10%;
+        margin-top: -43vw;
+
+}
+
+.text8 { 
+        font-family: "Fraunces9ptSoft-Italic";
+        font-size: 1.6vw;
+        text-align: left;
+        line-height: 140%;
+        letter-spacing: 1px;
+        color: #00d79c;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 3%;
+        display: block;
+
+}
+
+.text9 { 
+        font-family: "Fraunces9ptSoft-LightItalic";
+        font-size: 1.6vw;
+        text-align: left;
+        line-height: 140%;
+        letter-spacing: 1px;
+        color: #00d79c;
+        width: 50%;
+        margin-left: 10%;
+        margin-top: 3%;
+        display: block;
+
+}
+
+.text10 { 
+        font-family: "Fraunces9ptSuperSoft-ThinItalic";
+        font-size: 1.6vw;
+        text-align: left;
+        line-height: 140%;
+        letter-spacing: 1px;
+        color: #00d79c;
+        width: 70%;
+        margin-left: 10%;
+        margin-top: 3%;
+        display: block;
+
+}
+
+.bold{
+        font-family: "Fraunces9ptSoft-Italic";
+        display: inline;
+}
+
+.black{
+        font-family: "Fraunces9ptSoft-BoldItalic";
+        display: inline;
+}
+
+.image13{
+        width: 42%;
+        position: absolute;
+        margin-left: 50vw;
+        top: 814vw;
+
+}
+
+.image14{
+        width: 25%;
+        margin-left: 54vw;
+        margin-top: 5%;
+        z-index: -1;
+}
+
+
+
+
+.text11 { 
+        font-family: "Fraunces9ptSoft-BoldItalic";
+        font-size: 1.6vw;
+        text-align: left;
+        line-height: 140%;
+        letter-spacing: 1px;
+        color: #00d79c;
+        width: 70%;
+        margin-left: 10%;
+        margin-top: 3%;
+        display: block;
+        margin-bottom: 10vw;
+
+}
+
+.text12 { 
+        font-family: "Fraunces9ptSoft-Italic";
+        font-size: 1.6vw;
+        text-align: left;
+        line-height: 140%;
+        letter-spacing: 1px;
+        color: #00d79c;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 3%;
+        display: inline-block;
+
+}
+
+.image15{
+        width: 22%;
+        display: inline;
+        float: left;
+        margin-right: 2vw;
+        margin-bottom: -1vw;
+
+}
+
+h5 {
+        font-family: "Fraunces9ptSuperSoft-Light";
+        font-size: 1.5vw;
+        letter-spacing: 2px;
+        text-align: left;
+        color: #00d79c;
+        margin-left: 10%;
+        margin-top: 10%;
+}
+
+h6 {
+        font-family: "Fraunces9ptSuperSoft-Light";
+        font-size: 1.5vw;
+        letter-spacing: 2px;
+        text-align: left;
+        color: #00d79c;
+        margin-left: 10%;
+        margin-top: 10%;
+}
+
+.image16 {
+        width: 50%;
+        margin-left: 26vw;
 }

@@ -7,7 +7,7 @@ const noiseScale = 0.01;
 function setup() {
   let canvas = createCanvas(windowWidth, windowHeight);
   canvas.position(0,0,'fixed');
-  canvas.style ('z-index', '-1')
+  canvas.style ('z-index', '-2')
   
   for(let i = 0; i < num; i ++) {
     particle.push(createVector(random(width), random(height)));
