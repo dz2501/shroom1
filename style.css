@@ -413,13 +413,13 @@ h4 {
 }
 
 .text10 { 
-        font-family: "Fraunces9ptSuperSoft-ThinItalic";
+        font-family: "Fraunces9ptSoft-LightItalic";
         font-size: 1.6vw;
         text-align: left;
         line-height: 140%;
         letter-spacing: 1px;
         color: #00d79c;
-        width: 70%;
+        width: 80%;
         margin-left: 10%;
         margin-top: 3%;
         display: block;
@@ -514,5 +514,5 @@ h6 {
 
 .image16 {
         width: 50%;
-        margin-left: 26vw;
+        margin-left: 25vw;
 }
